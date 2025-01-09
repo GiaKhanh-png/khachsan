@@ -16,6 +16,6 @@ function signUp(e) {
     });
     localStorage.setItem('users',JSON.stringify(users));
     alert('person registered successfully');
-    window.location.href = './dk.html';
+    window.location.href = './dangnhap.html';
 }
 form.addEventListener('submit',signUp);      
