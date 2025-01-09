@@ -7,7 +7,7 @@ function login(e) {
     for (let i = 0; i < users.length; i++) {
         if (username == users[i].username) {
             alert("login successful");
-            window.location.href = "sanpham.html";
+            window.location.href = "index.html";
             return;
         }
     }
